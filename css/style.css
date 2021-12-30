@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+
+
+/** Main css style **/
+
+.pt {
+    padding-top: 40px;
+}
+
+.pb {
+    padding-bottom: 40px;
+}
+
+.bp {
+    padding: 80px 0;
+}
+
+/** Hero Area stylesheet ***/
+
+section.hero-area {
+    background: url(../images/backgrond.png);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+.menustyle li a {
+    font-size: 21px;
+    font-family: Bebas Neue;
+    color: #3d2514;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.bannner_details h3 {
+    font-size: 24px;
+    color: #3d2514;
+    font-family: Bebas Neue;
+    font-weight: normal;
+}
+
+.bannner_details h1 {
+    color: #3d2514;
+    font-size: 110px;
+    font-family: Alfa Slab One;
+    text-transform: uppercase;
+}
+
+.bannner_details h2 {
+    color: #3d2514;
+    font-size: 56px;
+    font-family: Alfa Slab One;
+    text-transform: uppercase;
+}
+
+.banner_detatls_wrapper {
+    height: 600px;
+    display: table;
+    width: 100%;
+}
+
+.bannner_details {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.food_price {
+    background: url(../images/price.png);
+    width: 174px;
+    height: 174px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.banner_image {
+    position: relative;
+}
+
+.food_price {
+    position: absolute;
+    bottom: 0;
+}
+
+.food_price h3 {
+    font-family: Bebas Neue;
+    color: #fff;
+    font-size: 70px;
+    line-height: 40px;
+}
+
+.food_price h3 span {
+    font-size: 30px;
+}
+
+.food_price h4 {
+    font-family: 'BEBAS NEUE';
+    color: #fff;
+    font-size: 33px;
+    letter-spacing: 4px;
+}
+
+
+
+/**** Burger Section style **/
+
+.big_burger {
+    background: url(../images/burger_big_img1.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-position: center center;
+}
+
+.big_burger h3 {
+    color: #fff;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    line-height: 10px;
+}
+
+.big_burger h2 {
+    color: #fff;
+    font-family: 'Bebas Neue';
+    font-size: 42px;
+}
+
+.small_burger {
+    background: url(../images/banner_1.png);
+    height: 240px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-position: center center;
+}
+
+.small_burger h3 {
+    color: #fff;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    line-height: 10px;
+}
+
+.small_burger h2 {
+    color: #fff;
+    font-family: 'Bebas Neue';
+    font-size: 42px;
+}
+
+.choos_enjoy_section_title {
+    text-align: center;
+}
+
+.choos_enjoy_section_title h3 {
+    background: #ffc045;
+    width: 240px;
+    color: #3d2514;
+    font-family: 'Bebas Neue';
+    height: 40px;
+    line-height: 44px;
+    margin: 0 auto;
+}
+
+.choos_enjoy_section_title h2 {
+    color: #3d2514;
+    font-size: 50px;
+    font-family: 'Alfa Slab One';
+    line-height: 70px;
+}
+
+.choos_enjoy_section_title p {
+    font-size: 17px;
+    color: #3d2514;
+}
+
+.choos_enjoy_section_title p {
+    font-size: 17px;
+    color: #3d2514;
+}
+
+.single_burger img {
+    width: 100%;
+}
+
+.single_burger h2 {
+    color: #3d2514;
+    font-size: 38px;
+    font-family: 'Bebas Neue';
+    padding-top: 40px;
+}
+
+.single_burger p {
+    color: #3d2514;
+    font-size: 17px;
+}
+
+.single_burger {
+    text-align: center;
+}
+
+button.burger_button {
+    background: #ff0000;
+    border: 0px;
+    color: #fff;
+    font-family: 'Alfa Slab One';
+    font-size: 17px;
+    text-transform: uppercase;
+    height: 60px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+
+/***** Event section ***/
+
+.row.event_wrapper {
+    background: #fff;
+    box-shadow: -2px 6px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+
+.events_img img {
+    width: 100%;
+}
+
+.events_slider_content h3 {
+    color: #3d3d3d;
+    font-size: 29px;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+}
+
+.events_slider_content h2 {
+    color: #3d2514;
+    font-size: 42px;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+}
+
+.events_slider_content p {
+    color: #3d3d3d;
+    font-size: 21px;
+}
+
+.events_slider_content {
+    padding-top: 40px;
+}
+
+
+/*** Reservation Form ***/
+
+.reservation_title {
+    text-align: center;
+}
+
+.reservation_title h3 {
+    color: #3d2514;
+    font-size: 29px;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+}
+
+.reservation_title h2 {
+    color: #3d2514;
+    font-size: 50px;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.reservation_form input {
+    border: 1px solid #bebebe;
+    font-family: 'Bebas Neue';
+    font-size: 21px;
+    height: 65px;
+    padding-left: 20px;
+    width: 45%;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+button.find {
+    background: #bf2222;
+    width: 45%;
+    color: #fff;
+    border: 0px;
+    line-height: 65px;
+    font-size: 21px;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+}
+
+
+/*** Footer Area style ***/
+
+section.footer_area {
+    background: url(../images/footer_bg.png);
+    width: 100%;
+    background-size: cover;
+    height: 525px;
+    background-position: center center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+
+section.footer_area {
+    background: url(../images/footer_bg.png);
+    width: 100%;
+    background-size: cover;
+    height: 525px;
+    background-position: center center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.copy_right p {
+    color: #fff;
+}
+
+.footer_widgets p {
+    color: #fff;
+    padding-top: 50px;
+    font-size: 17px;
+}
+
+.address_list {
+    padding-top: 130px;
+    float: right;
+}
+
+.address_list ul li span {
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+.address_list ul li {
+    padding-bottom: 10px;
+}
+
+ 
+
+.copy_right p {
+    font-family: 'Bebas Neue';
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+ 
+
+.social_icon_list a i {
+    background: #fff;
+    color: #000;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 100%;
+}
+
+.row.copyright_top_space {
+    padding-top: 120px;
+}
+
+.social_icon_list {
+    float: right;
+}

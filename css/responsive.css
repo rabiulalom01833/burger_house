@@ -1,0 +1,239 @@
+/**
+ * /* Extra large devices (large desktops, 1200px and up)
+ *
+ * @format
+ */
+
+@media (min-width: 1200px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner_image img {
+        width: 100%;
+    }
+    
+    .bannner_details h1 {
+        font-size: 80px;
+    }
+    
+    .banner_detatls_wrapper {
+        height: 430px;
+    }
+    
+    section.hero-area {
+        height: auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    section.hero-area {
+        height: auto;
+    }
+
+    .banner_detatls_wrapper {
+        height: 340px;
+        text-align: CENTER;
+    }
+
+    .banner_image {
+        margin-top: -96px;
+    }
+
+    section.hero-area {
+        padding-bottom: 50px;
+    }
+
+    .big_burger {
+        margin-bottom: 20px;
+    }
+
+    .big_burger {
+        margin-bottom: 20px;
+    }
+
+    .single_burger {
+        background: #fcfcfc;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    section.footer_area {
+        height: auto;
+        padding-top: 30px;
+    }
+
+    .footer_widgets {
+        text-align: center;
+    }
+
+    .address_list {
+        float: unset;
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+
+/* All Mobile Devices */
+@media (min-width: 320px) and (max-width: 991.98px) {
+    section.hero-area {
+        height: auto;
+    }
+
+    section.hero-area a.navbar-brand .logo img {
+        width: 75%;
+    }
+    
+    section.hero-area {}
+    
+    section.hero-area button.navbar-toggler {
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+
+    .banner_detatls_wrapper {
+        height: 270px;
+        text-align: CENTER;
+    }
+
+    .banner_image {
+        margin-top: -96px;
+    }
+
+    .bannner_details h1 {
+        font-size: 55px;
+    }
+
+    .bannner_details h2 {
+        font-size: 30px;
+    }
+
+    .bannner_details h3 {
+        font-size: 18px;
+    }
+
+    .banner_image img {
+        width: 100%;
+    }
+
+    .big_burger {
+        height: 300px;
+    }
+
+    .food_price {
+        width: 90px;
+        height: 90px;
+        background-size: contain;
+        padding-top: 26px;
+    }
+
+    .food_price {}
+
+    .food_price h3 {
+        font-size: 20px;
+        line-height: 14px;
+    }
+
+    .food_price h3 span {
+        font-size: 20px;
+    }
+
+    .food_price h4 {
+        font-size: 20px;
+    }
+
+
+    section.hero-area {
+        padding-bottom: 50px;
+    }
+
+    .big_burger {
+        margin-bottom: 20px;
+    }
+
+    .big_burger {
+        margin-bottom: 20px;
+    }
+
+    .single_burger {
+        background: #fcfcfc;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    section.footer_area {
+        height: auto;
+        padding-top: 30px;
+    }
+
+    .footer_widgets {
+        text-align: center;
+    }
+
+    .address_list {
+        float: unset;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .choos_enjoy_section_title h2 {
+        font-size: 30px;
+    }
+
+    .bp {
+        padding: 40px 0;
+    }
+
+    .reservation_form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button.find {
+        width: 100%;
+    }
+
+    .footer_widgets img {
+        width: 100%;
+    }
+
+    .footer_widgets p {
+        padding-top: 30px;
+    }
+
+    .copy_right p {
+        text-align: center;
+    }
+
+    .social_icon_list {
+        text-align: center;
+        float: unset;
+    }
+
+    .row.copyright_top_space {
+        padding-top: 20px;
+    }
+
+    .address_list {
+        margin-left: -40px;
+    }
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+}
+
+/*  */
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 375px) {}
